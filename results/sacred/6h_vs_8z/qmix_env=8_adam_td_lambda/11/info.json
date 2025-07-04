@@ -1,0 +1,56 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    190
+  ],
+  "ep_length_mean": [
+    23.75
+  ],
+  "ep_length_mean_T": [
+    190
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    190
+  ],
+  "return_mean": [
+    5.657094594594595
+  ],
+  "return_mean_T": [
+    190
+  ],
+  "return_std": [
+    0.37951912381283726
+  ],
+  "return_std_T": [
+    190
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    190
+  ],
+  "test_ep_length_mean": [
+    24.375
+  ],
+  "test_ep_length_mean_T": [
+    190
+  ],
+  "test_return_mean": [
+    3.7461993243243246
+  ],
+  "test_return_mean_T": [
+    190
+  ],
+  "test_return_std": [
+    0.5098188384819929
+  ],
+  "test_return_std_T": [
+    190
+  ]
+}
