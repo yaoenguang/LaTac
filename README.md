@@ -1,31 +1,31 @@
-# LaTac: Latent Tactics for Robust Multi-Agent Coordination Under Intermittent Communication
+# **LaTac: Latent Tactics for Robust Multi-Agent Coordination Under Intermittent Communication**
 
-Code for the paper "LaTac: Latent Tactics for Robust Multi-Agent Coordination Under Intermittent Communication" submitted to Neural Networks. 
+## **experiment instructions**
 
-## Requirements
-
-To install requirements:
-
-```setup
+### **Installation instructions**
+See `requirments.txt` file for more information about how to install the dependencies.
+```python
+conda create -n latac python=3.10.0 -y
+conda activate latac
 pip install -r requirements.txt
 ```
 
-## Training
+### **Run an experiment**
 
-To train the approach in the paper, run this command:
+You can execute the following command to run ACORM on SMAC benchmark with a map config, such as `3s_vs_5z`:
 
-```train
-python main.py
+```python
+python src/main.py --config llt --env_config sc2 with --env_name 3s_vs_5z --max_train_steps 5000000
 ```
 
-## Hyper-parameters
-
-To modify the hyper-parameters of algorithms and environments, refer to:
-
+or you can execute the following command to run ACORM on MPE benchmark with a map config, such as `cn_3v3_classical`:
+```python
+python src/main.py --config llt --env_config mpe with --map_name cn_3v3_classical
 ```
 
-```
+All results will be stored in the `LaTac/results` folder. You can see the console output, config, and tensorboard logging in the `LaTac/results/tb_logs` folder.
 
-## Note
+## **License**
 
-This repository is developed based on PyMARL. And we have cited the SMAC paper in our work.
+Code licensed under the Apache License v2.0.
+
