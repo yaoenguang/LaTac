@@ -88,7 +88,7 @@ if __name__ == '__main__':
     # params = deepcopy(sys.argv)
     params = []
     params.append("src/main.py")
-    params.append("--config=llt")
+    params.append("--config=latac")
     params.append("--env-config=sc2")
     params.append("with")
     params.append("env_args.map_name=3s_vs_5z")
